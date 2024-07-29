@@ -1,6 +1,6 @@
 dependencies {
-    implementation project(':conductor-common')
-    implementation project(':conductor-core')
+    implementation projects(':conductor-common')
+    implementation projects(':conductor-core')
     compileOnly 'org.springframework.boot:spring-boot-starter'
 
     implementation "org.apache.commons:commons-lang3"
